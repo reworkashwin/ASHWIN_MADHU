@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
+    color: #fff;
+    background: #6a0dad; /* Purple background */
 }
 
 header {
-    background: #333;
+    background: #4b0082; /* Darker purple for header */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -21,14 +22,26 @@ header p {
     margin: 0.5rem 0;
 }
 
+a {
+    color: #ffeb3b; /* Yellow color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 1rem;
     margin: 0 auto;
     max-width: 800px;
+    background: #5e2a91; /* Slightly lighter purple */
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #fff;
     padding-bottom: 0.5rem;
 }
 
@@ -46,7 +59,7 @@ ul li {
 }
 
 footer {
-    background: #333;
+    background: #4b0082;
     color: #fff;
     text-align: center;
     padding: 0.5rem 0;
